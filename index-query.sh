@@ -11,7 +11,7 @@ echo "Trec eval for vsm similarity"
 ./trec_eval ../src/main/resources/cran/QRelsCorrectedforTRECeval ../../result-standard-vsm-similarity.txt
 echo "Trec eval for BM25 Similarity"
 ./trec_eval ../src/main/resources/cran/QRelsCorrectedforTRECeval ../../result-standard-bm25-similarity.txt
-echo "Trec eval for Mutli Similarity using VSM and BM25"
+echo "Trec eval for Multi Similarity using VSM and BM25"
 ./trec_eval ../src/main/resources/cran/QRelsCorrectedforTRECeval ../../result-standard-multi-similarity.txt
 
 echo "Trec eval process For English Analyser"
@@ -22,5 +22,5 @@ echo "Trec eval for vsm similarity"
 ./trec_eval ../src/main/resources/cran/QRelsCorrectedforTRECeval ../../result-english-vsm-similarity.txt  
 echo "Trec eval for BM25 Similarity"
 ./trec_eval ../src/main/resources/cran/QRelsCorrectedforTRECeval ../../result-english-bm25-similarity.txt 
-echo "Trec eval for Mutli Similarity using VSM and BM25"
+echo "Trec eval for Multi Similarity using VSM and BM25"
 ./trec_eval ../src/main/resources/cran/QRelsCorrectedforTRECeval ../../result-english-multi-similarity.txt    
