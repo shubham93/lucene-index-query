@@ -103,7 +103,7 @@
               <createDependencyReducedPom>false</createDependencyReducedPom>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>CreateIndex</mainClass>
+                  <mainClass>uniyals.application.App</mainClass>
                 </transformer>
               </transformers>
             </configuration>
